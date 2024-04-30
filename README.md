@@ -22,7 +22,7 @@ For more information please visit [Sourceforce SnmpB](https://sourceforge.net/pr
 
 `sudo rpmbuild SPECS/snmpb.spec --bb --define "_topdir $(pwd)" --define "prefix /usr"`
 
-### Install libqwt (optional)
+### Install libqwt
 `cd ../../../qwt`
 
 `sudo make install`
