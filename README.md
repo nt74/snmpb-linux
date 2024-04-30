@@ -59,7 +59,7 @@ For more information please visit [Sourceforce SnmpB](https://sourceforge.net/pr
 
 `debuild --no-sign`
 
-### Install RPM package
+### Install DEB package
 `cd ..`
 
 `sudo dpkg -i snmpb_1.0_amd64.deb`
