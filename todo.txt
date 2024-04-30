@@ -1,0 +1,32 @@
+== 0.9 milestones ==
+- Translation infrastructure (publish TS template)
+- OSX: Fix editFinished signal not working in mibselection.cpp
+- OSX: Crash multiple varbinds -> trigs autoloading
+
+== 1.0 milestones ==
+✔ Maintenance: make an icon theme, fix windows not understanding SVG
+- Maintenance: rework the build system, allow shared/static linking choice
+- Maintenance: out-of-tree build
+- Maintenance: meson build (or at least CMake), get rid of custom makefile
+- Maintenance: windows "portable" build
+- Maintenance: add CI builds/releases
+- Maintenance: investigate forks (3 on SF, a few on GitHub)
+- Maintenance: .toLatin1() will probably not work on non-UTF-8 locales
+- Feature: Copy OID context menu (as numbers, as symbolic)
+- Feature: bookmarks, to OIDs and maybe to MIB lines
+- Feature: Go to MIB source
+- Feature: traffic indicator (up/down)
+- Feature: "busy" spinner (ideally, a progress bar)
+- Feature: cancellation (bulk, walk, table... any long request)
+- Feature: secure small-setuid-binary trap receiver design
+- UCD-SNMP-MIB doesn't load completely?..
+- Fix graph plotting system (+ add configurable polling interval)
+- Add support for multiple files in editor
+- Add support for smart indexing on table view
+- Add "clear" button for traps
+- Add SMIv1/SMIv2 config and severity checking level for MIB editor validation
+- Feature: Add download and extract MIB from RFC from ietf.org directly
+- Feature: add packet/session sniffing tab
+- Feature: Add table mirror view
+- Feature: Add send trap/inform tool
+- Feature: Add load/save in multiple varbinds window

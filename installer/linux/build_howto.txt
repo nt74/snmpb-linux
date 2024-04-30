@@ -1,0 +1,30 @@
+How to build a binary rpm for snmpb
+------------------------------------
+
+1- cd rpm
+2- rpmbuild --define "_topdir $PWD" -bb SPECS/snmpb.spec
+
+This will build the package and create a .rpm 
+file in the local RPMS/i386 directory.
+
+This will install the package by default in /usr.
+Pass --define "prefix /usr/local/mycustomdir" to rpmbuild to change this.
+
+Note: to install the package:
+sudo rpm -i RPMS/*/snmpb-*.rpm
+
+How to build a binary deb for snmpb
+------------------------------------
+
+1- cd deb/BUILD 
+2- debuild --no-sign
+
+This will build the package and create a .deb
+file in the local deb/ directory.
+
+This will install the package by default in /usr.
+Change the TOP_INSTALLDIR value in the deb/BUILD/debian/rules file to change this.
+
+Note: to install the package:
+sudo dpkg -i snmpb_x.x.x_i386.deb
+

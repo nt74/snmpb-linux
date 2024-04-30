@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="text/x-mib">
+    <comment xml:lang="en">SNMP MIB</comment>
+    <glob pattern="*.mib"/>
+    <glob pattern="*.MIB"/>
+    <glob pattern="*-MIB"/>
+  </mime-type> 
+  <mime-type type="text/x-pib">
+    <comment xml:lang="en">SNMP PIB</comment>
+    <glob pattern="*.pib"/>
+    <glob pattern="*.PIB"/>
+    <glob pattern="*-PIB"/>
+  </mime-type> 
+  <mime-type type="text/x-smi">
+    <comment xml:lang="en">SNMP MIB</comment>
+    <glob pattern="*.smi"/>
+    <glob pattern="*.SMI"/>
+    <glob pattern="*-SMI"/>
+    <glob pattern="*-TC"/>
+    <glob pattern="*-TYPES"/>
+  </mime-type> 
+</mime-info>
