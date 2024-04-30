@@ -42,7 +42,7 @@ For more information please visit [Sourceforce SnmpB](https://sourceforge.net/pr
 ### Prerequisites
 `sudo apt install bison flex autoconf automake libtool pbuilder qtbase5-dev qttools5-dev-tools qt5-qmake`
 
-`sudo ln -s /usr/lib64/qt5/bin/qmake /usr/bin/qmake`
+`sudo ln -s /usr/lib/qt5/bin/qmake /usr/bin/qmake`
 
 ### Optional packages
 `sudo apt install libtomcrypt-dev libsmi2-dev`
