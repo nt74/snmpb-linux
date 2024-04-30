@@ -34,4 +34,4 @@ For more information please visit [Sourceforce SnmpB](https://sourceforge.net/pr
 ### Install RPM package
 `cd ../installer/linux/rpm/RPMS/x86_64`
 
-`sudo rpm --nodeps -Uvh snmpb-1.0-1.x86_64.rpm`
+`sudo rpm --nodeps -Uvh snmpb-0.9-2pre.x86_64.rpm`
