@@ -77,10 +77,10 @@ Modified file(s):
 None
 
 ## QWT http://qwt.sourceforge.net ##
-Version: 6.2.0
+Version: 6.3.0
 
 Modified file(s):
-qwtconfig.pri
+None
 
 --------------------------------
 
