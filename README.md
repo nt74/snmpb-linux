@@ -27,7 +27,7 @@ For more information please visit [Sourceforce SnmpB](https://sourceforge.net/pr
 
 `sudo make install`
 
-`echo /opt/qwt-6.2.0/lib | sudo tee /etc/ld.so.conf.d/qwt.conf`
+`echo /opt/qwt-6.3.0/lib | sudo tee /etc/ld.so.conf.d/qwt.conf`
 
 `sudo ldconfig -v`
 
@@ -69,6 +69,6 @@ For more information please visit [Sourceforce SnmpB](https://sourceforge.net/pr
 
 `sudo make install`
 
-`echo /opt/qwt-6.2.0/lib | sudo tee /etc/ld.so.conf.d/qwt.conf`
+`echo /opt/qwt-6.3.0/lib | sudo tee /etc/ld.so.conf.d/qwt.conf`
 
 `sudo ldconfig -v`
